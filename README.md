@@ -1,6 +1,6 @@
 # Готель Оазис
 
-Live site: https://oazis.chernivtsi.space
+Live site: https://oazis.hotelup.work
 
 ## About
 Готель Оазис — готель у Чернівцях. Односторінковий лендинг. Фото закладу немає (`photos_source: null`), тому hero типографічний (CSS/SVG), а єдині фото — міста Чернівців з Pexels (див. Photos).
