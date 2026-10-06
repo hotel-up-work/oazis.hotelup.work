@@ -66,11 +66,17 @@ Email, сайт, Instagram, зірковість, ціни, тип роз’єм
 HotelOS (`ch-oazis`): `stay-request` (проживання). Документ `hotels/ch-oazis` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## Photos
-Лише фото міста (не готелю), з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці:
+Фото готелю немає, з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці. Два набори:
 
+Фото міста (секція `#city`):
 - Резиденція буковинських митрополитів, нині Чернівецький університет: pexels.com/photo/38163639 (Natalia Sevruk)
 - Вулиця в Чернівцях: pexels.com/photo/17268858 (Андрій Копічевський)
 - Храм Резиденції митрополитів: pexels.com/photo/38163644 (Natalia Sevruk)
+
+Ілюстративні фото зручностей (секція `#amenity-photos`, явно підписані «ілюстрація», не фото «Оазису»):
+- Зарядка електромобіля: pexels.com/photo/8827006 (introspectivedsgn)
+- Тераса: pexels.com/photo/38825318 (Iryna Ilieva)
+- Сніданок: pexels.com/photo/33674436 (pedrofurtadoo)
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
